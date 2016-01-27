@@ -1,0 +1,45 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 26, 2016, 3:31:05 PM
+    Author     : evynn_2
+*/
+body{
+   text-align: center;   
+    background: whitesmoke;
+    background-size:cover;
+    background-position:center center;
+    background-repeat:no-repeat;
+    /*background-attachment:fixed;*/
+    color:darkslategray;
+    font-family:Helvetica;
+}
+  .outer {
+    position: relative;
+    background: url("./images/snowapples.jpg");
+    width: 100%;
+    height: 700px;
+    /*top: 50px;*/
+  }
+  .bottomleft {
+    position: absolute;
+    bottom: 0;
+    left: 0.5em;
+    width: 400px;
+    font-weight: bold;
+    color: #fff;
+  }
+ .topright {
+    position: absolute;
+    top: 1em;
+    right: 2em;
+    width: 320px;
+    padding: 4px;
+    /*background-color: #fff;*/
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
